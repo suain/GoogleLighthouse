@@ -1,0 +1,14 @@
+name: CI
+on: [push]
+jobs:
+  lighthouseci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install -g @lhci/cli@latest
+      - run: npm build
+      - run: lhci collect --config=mobile-config.js 
+      - run: lhci upload --target temporary-public-storage
+      - run: lhci collect ---config=desktop-config.js 
+      - run: lhci upload --target temporary-public-storage
