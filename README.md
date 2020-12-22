@@ -8,4 +8,4 @@ This repro checks two websites and simulated a desktop and mobile device automat
 ## Lighthouse ci
 https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md
 
-For scheduling crontag.guru
+For scheduling see https://crontab.guru/
