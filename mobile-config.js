@@ -5,8 +5,6 @@ module.exports = {
 			numberOfRuns: 3,
 			settings: {
 				chromeFlags: '--no-sandbox',
-				 "emulatedFormFactor": "mobile",
-
 			},
 		},
 	},
