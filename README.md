@@ -14,9 +14,6 @@ For exclusions:
 
 settings: {
 		   "blockedUrlPatterns": [
-                    "*hotjar.com*",
-                    "*facebook.net*",
                     "*facebook.com*",
-                    "*vimeo.com*",  
-                    "*trustpilot.com"
+                    "*XYZ.com"
                   ],	
