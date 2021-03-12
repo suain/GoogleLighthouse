@@ -4,6 +4,7 @@ module.exports = {
 						url: ['https://www.svenbelz.com', 'https://www.digitalnotiz.de/'],
 			numberOfRuns: 3,
 			settings: {
+				"preset": "desktop",
 				chromeFlags: '--no-sandbox',
 				 "emulatedFormFactor": "desktop",
 					"throttling": {
