@@ -9,3 +9,14 @@ This repro checks two websites and simulated a desktop and mobile device automat
 https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md
 
 For scheduling see https://crontab.guru/
+
+For exclusions:
+
+settings: {
+		   "blockedUrlPatterns": [
+                    "*hotjar.com*",
+                    "*facebook.net*",
+                    "*facebook.com*",
+                    "*vimeo.com*",  
+                    "*trustpilot.com"
+                  ],	
