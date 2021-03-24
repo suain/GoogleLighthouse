@@ -1,1 +1,2 @@
 touch ci.yml
+touch ci-auto.yml
